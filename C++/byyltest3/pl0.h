@@ -1,4 +1,4 @@
-                         /*PL/0 编译系统C版本头文件 pl0.h*/
+/*PL/0 编译系统C版本头文件 pl0.h*/
 
 # define norw 19                 /*关键字个数*/
 # define txmax 100               /*名字表容量*/
@@ -10,8 +10,8 @@
 
 /*符号*/
 enum symbol{
-	 nul,    ident,     number,     plus,     minus,
-	 times,   slash,   oddsym,   eql,     neq,
+nul,    ident,     number,     plus,     minus,
+times,   slash,   oddsym,   eql,     neq,
 lss,     leq,      gtr,     geq,     lparen,
 rparen,  comma,   semicolon,period,  becomes,
 beginsym, endsym, ifsym,    thensym,  whilesym,
@@ -43,12 +43,6 @@ struct instruction
   int l;
   float a;
 };
-
-FILE * fas;
-FILE * fa;
-FILE * fa1;
-FILE * fa2;
-
 bool tableswitch;
 bool listswitch;
 char ch;
