@@ -1474,6 +1474,8 @@ int condition(bool* fsys,int* ptx,int lev)
             case leq:
                 gendo(opr,0,13);
                 break;
+            default:
+                break;
             }
 
         }
