@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    登录表单:
+    <form action="http://www.baidu.com/s" method="GET">
+        用户名：<input type="text" name="wd"><br />
+        密&nbsp;&nbsp;码：<input type="password"><br />
+        &nbsp;<input type="submit" value="search">
+        当name设置为wd时就变成了在搜索引擎下搜索
+    </form>
+    <br /><br />
+
+
+    表单：
+    <form action="http://www.baidu.com/s" method="GET">
+        关键词：<input type="text" name="wd"><br />
+        哪个网站：<select name="site">
+            <option value="1">www.bjfu.edu.cn</option>
+            <option value="2">www.tsinghua.edu.cn</option>
+            <option value="3">www.pku.edu.cn</option>
+        </select><br />
+        提交方式：
+        <input type="radio" value="g">GET
+        <input type="radio" value="p">Post<br />
+        <input type="submit" value="search"><br />
+        百度不能用post<br />
+    </form>
+</body>
+</html>
