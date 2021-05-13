@@ -14,6 +14,13 @@
     - form.html 为搜索引擎通过form测试
       - & nbsp;是空格的意思
       - 输入空格在网址中会显示+
+  - 5.13为css基础知识
+    - css相同属性下最后一个起作用
+    - id的级别高于class，id名为#x，class名为.x
+    - x.y表示标签为x且class为y的地方
+    - x,.y表示标签为x或class为y的地方
+    - a x.y表示在a中的标签为x的class为y的地方
+    - a>x.y表示在a中的标签为x的class为y的地方，且不包含孙子节点
 
 ### about C++
   - byyltest3是编译原理的实验三尝试

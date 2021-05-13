@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #d2{
+        width: 100px; height: 50px; border: chartreuse 3px dotted; display: inline-block;
+    }
+    .c{
+        width: 100px; height: 50px; border: purple 3px dotted; display: inline-block;
+    }
+    span.c{
+        width: 100px; height: 50px; border: blue 3px dotted; display: inline-block;
+    }
+    span,.c{
+        width: 100px; height: 50px; border: black 3px dotted; display: inline-block;
+    }
+    div span.c{
+        width: 100px; height: 50px; border: yellow 3px dotted; display: inline-block;
+    }
+    div>span.c{
+        width: 100px; height: 50px; border:orange 3px dotted; display: inline-block;
+    }
+    .d{
+        font-size: 30px;color: rgb(9, 241, 106);
+    }
+    span.c.d{
+        font-size: 30px;color: rgb(9, 71, 241);
+    }
+</style>
+<body>
+    <div style="width:max-content; height:max-content; border: red 3px dotted;">
+        ????
+    </div><br />
+    <div style="width:max-content; height:max-content; border: blueviolet 3px solid;">
+        !!!!
+    </div><br />
+    <div style="width:max-content; height:max-content; border: blueviolet 3px solid;height: 50px;">
+        !!??
+    </div><br />
+
+    <div id="d2">123</div>
+    <div class="c">456</div>
+    <div class="c" id="d2">789</div><br /><br />
+
+    <span>s1</span>
+    <span class="c">s2</span><br /><br />
+    <div>
+        <span class="c">s3</span>
+        <a>
+            <span class="c">s4</span>
+        </a>
+    </div><br />
+    <span class="d">s5</span>
+    <span class="c d">s6</span>
+</body>
+</html>
