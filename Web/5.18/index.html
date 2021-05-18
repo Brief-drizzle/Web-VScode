@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        border: solid rgb(197, 109, 248) 10px;
+        border-color: blue gold blueviolet green;
+        border-style: solid dotted double groove;
+
+        padding-top: 10px;
+        padding-left: 30px;
+
+        margin-bottom: 40px;
+        
+        /*
+        border-width: 20px;
+        border-color: crimson;
+        border-style: solid;
+        */
+        width: 70%;
+        height: 300px;
+        background-color: rgb(203, 181, 223);
+    }
+</style>
+<body>
+    <div id="box">盒子</div>
+    <div id="box" style="margin-top: 100px;">盒子2 <br />
+        margin上下连接的间隙会出现坍塌，出现在<br />
+        1.两个盒子相邻<br />
+        2.外盒子的margin，内盒子的padding<br />
+    </div>
+</body>
+</html>
