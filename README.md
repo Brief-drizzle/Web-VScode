@@ -21,6 +21,9 @@
     - x,.y表示标签为x或class为y的地方
     - a x.y表示在a中的标签为x的class为y的地方
     - a>x.y表示在a中的标签为x的class为y的地方，且不包含孙子节点
+  - 5.18是box的基本知识
+    - 学习了margin padding的相关知识
+    - 小心边界塌陷问题
 
 ### about C++
   - byyltest3是编译原理的实验三尝试
