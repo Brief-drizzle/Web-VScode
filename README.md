@@ -24,6 +24,9 @@
   - 5.18是box的基本知识
     - 学习了margin padding的相关知识
     - 小心边界塌陷问题
+  - 5.20是关于top,bottom,left,right的参数的相关知识
+    - 需要position为absolute
+    - z-index为在表面上
 
 ### about C++
   - byyltest3是编译原理的实验三尝试
