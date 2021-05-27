@@ -27,7 +27,9 @@
   - 5.20是关于top,bottom,left,right的参数的相关知识
     - 需要position为absolute
     - z-index为在表面上
-  - 5.25
+  - 5.27学习了js的相关内容
+    - 利用script的src来确定代码位置
+    - javascript中三个===是恒相等的意思
 
 ### about C++
   - byyltest3是编译原理的实验三尝试
