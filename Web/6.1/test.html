@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onclick="f()" style="background-color: aqua;width: 400px;border: solid 1px green;height: 50px;"></div>
+    <div id="index"></div>
+    <div id="result"></div>
+    <script type="text/javascript">
+        function f(){
+            var x = 10;
+            var y = x;
+            x = 30;
+
+            var a={x:10}
+            var b=a;
+            a.x=30;
+
+            var s="abc";
+            if(s){
+                alert(s);
+            }
+
+            var arr=[1,2,3,4,"abd","qws"];
+            arr[0]=34;
+            arr[7]="dcv";
+            arr.push(65);
+            var xx=arr.pop();
+
+            arr[100]=78;
+
+            for(var i=0;i<arr.length;i++){
+                if(!arr[i])
+                    continue;
+                    document.getElementById('index').innerHTML+=i+",";
+                    document.getElementById('result').innerHTML+=arr[i]+",";
+            }
+
+            var obj={name:'zhangsan',sex:'male',age:23};
+            obj.name='zhangsan1';
+
+            var json1={a:[1,2,3,{x:2}], b:{name:'1bc',age:23}, ar:{y:[5,6,7]}};
+            json1['ar']['y'][1] = 67;
+            json1.ar.y[1]=90;
+        }
+    </script>
+</body>
+</html>

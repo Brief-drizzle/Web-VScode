@@ -30,6 +30,7 @@
   - 5.27学习了js的相关内容
     - 利用script的src来确定代码位置
     - javascript中三个===是恒相等的意思
+  - 6.1学习了json的相关格式
 
 ### about C++
   - byyltest3是编译原理的实验三尝试
