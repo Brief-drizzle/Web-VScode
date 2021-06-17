@@ -7,12 +7,27 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="display">
+        
+    </div>
+    <input type="button" value="wang" onclick="clk(1)">
+    <input type="button" value="ma" onclick="clk(2)">
     <script>
-        function f(){
-            this.val=10;
-            return 20;
+        function f(name,address){
+            this.name=name;
+            this.address=address;
+            this.show=function(){
+                document.getElementById("display").innerHTML=
+                "name: "+this.name+",address: "+this.address;
+            }
         }
-        var x = f();
+        var wang = new f("wang",1020);
+        var ma = new f("ma",313);
+
+        function clk(flag){
+            if(flag==1) wang.show();
+            if(flag==2) ma.show();
+        }
     </script>
 </body>
 </html>
