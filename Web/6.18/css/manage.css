@@ -1,0 +1,83 @@
+.body{
+    background-image: url(/Web/6.18/pic/back2.png);
+    background-repeat: no-repeat;
+    background-color: #054a76;
+    background-position:center 0;
+    width: 100%;
+    height: 100%;
+}
+.top1_button{
+    position: absolute;
+    top: 31px;
+    padding-left: 5px;
+}
+.button_left{
+    position: relative;
+    left: 298px;
+}
+.button_right{
+    position: relative;
+    left: 722px;
+    top: -18px;
+}
+.change_pwd,.user_iden,.main_page,.back_step,.go_step,.reload,.exit{
+    text-shadow: #0071bd 1px 0 0,#023c63 0 1px 0,#023c63 -1px 0 0,#023c63 0 -1px 0;
+    font-size: 12px;
+    color: rgb(221, 221, 221);
+    background-color: #00000000;
+    border: none;
+}
+.button2_left{
+    position: absolute;
+    top: 61px;
+    left: 300px;
+}
+.system_manage,.way_manage,.user_manage{
+    font-size: 5px;
+    color:#1aa1d5;
+    background-color: #00000000;
+    border: none;
+    padding-right: 14px;
+}
+.welcome{
+    position: absolute;
+    font-size: 5px;
+    color:#1aa1d5;
+    top: 63px;
+    left: 922px;
+}
+.left{
+    position: absolute;
+    top: 88px;
+    left: 110px;
+    height: 517px;
+    width: 169px;
+    border-radius: 5px;
+}
+.manage_way,.brower_way,.other_way{
+    background-image: url(/Web/6.18/pic/choice.png);
+    background-repeat: no-repeat;
+    background-color: #00000000;
+    background-size: 100% 100%;
+    display: block;
+    text-align:center;
+    font-size: 12px;
+    width: 168px;
+    height: 30px;
+    border: none;
+    margin-bottom: 2px;
+    color: rgb(221, 221, 221);
+}
+.right{
+    position: absolute;
+    top: 88px;
+    left: 287px;
+    height: 517px;
+    width: 821px;
+    overflow: hidden;
+}
+.ifr{
+    height: 100%;
+    width: 100%;
+    
+}
