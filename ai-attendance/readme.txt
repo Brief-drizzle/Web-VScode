@@ -37,4 +37,4 @@ express
 7、layui前端UI框架，admin https://gitee.com/bjfu_lhy_lanhy2000/layuimini.git
 
 大作业发送到：lanhy2000@163.com
-作为附件，正文说明：git地址
+git地址：https://github.com/Brief-drizzle/Web-VScode/tree/main/ai-attendance
